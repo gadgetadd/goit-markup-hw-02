@@ -1,0 +1,65 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --white-text-color: #FFFFFF;
+    --white-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--white-bg-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+.logo {
+    color: var(--accent-text-color);
+}
+
+.logo>span {
+    color: #000000;
+}
+
+.nav a {
+    color: var(--secondary-text-color);
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: var(--accent-text-color);
+}
+
+.header-contacts a {
+    color: var(--primary-text-color);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+    color: var(--accent-text-color);
+}
+
+/*  */
+
+.section-title {
+    color: var(--secondary-text-color);
+}
+
+.features .title {
+    color: var(--secondary-text-color);
+}
+
+
+.button {
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+}
